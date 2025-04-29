@@ -1,0 +1,785 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+   
+   overflow-x: hidden;
+}
+
+.title-h1{display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 45px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px; 
+    list-style: none;
+}
+
+li:hover {
+    color: blue;
+}
+nav{
+    padding: 15px;
+    font-size: 14px;
+    
+}
+.fa fa-shopping-cart{
+    display: none;
+}
+.title {
+    font-family: Poppins,sans-serif;;
+    font-weight: 400;
+    display: flex;
+    flex: 1 1  20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    background-color: white;
+   
+}
+.main-content{
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 100vh;
+   
+    
+}
+
+.section-1 { 
+    width: 100%;  
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 15%;
+    color: white; 
+    text-align: center; 
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 100%), 
+    url('https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_01-2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat:no-repeat ;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+} 
+.section-1_head{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;;
+    padding-bottom: 40px;
+}
+.section-1_title{
+    font-size: 55px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    font-family: 'Cormorant Garamond',Georgia,"Times New Roman",serif;
+}
+.section-1_p{
+   
+    line-height: 1.8em;
+    font-weight:500;
+    font-size: 24px;
+}
+.section-1_p2{
+   
+    line-height: 1.8em;
+    font-weight:500;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.section-1_button{
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: rgb(248, 128, 106);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+
+}
+.section-1_button:hover{
+    cursor: pointer;
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: coral;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    
+}
+.section-2{
+
+    background: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/recipe_illustration_03.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;  
+    padding-top: 10%;
+    padding-bottom: 12%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-2_head{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.section-2_head_title{
+    font-weight: 100;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.3%;
+}
+.section-2_head_border{
+    border: solid 1px #bbbaba;
+    min-width: 7%;
+   margin-bottom: 5%;
+}
+
+.section-2_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+.section-2_content_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    max-width: 22%;
+    min-width: 22%;
+    
+    }
+.section-2_content_box_img{
+    width: 100%;
+}
+.section-2_content_box_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2_content_box_h2{
+    margin-top: 15%;
+}
+.section-2_content_box_text_p{
+    margin-top: 5%;
+    color:rgb(248, 128, 106); ;
+}
+
+.section-3{
+   block-size: initial;
+   background-color: #f9f2f2;
+}
+.section-3_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/recipe_illustration_02-1.png");
+background-size: cover;
+background-position: 40%;
+background-repeat: no-repeat;
+}
+.section-3_content_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  background-color: white;
+    max-width: 75%;
+    min-width: 22%;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+.section-3_title{
+    padding-bottom: 5%;
+}
+.section-3_text{
+    display: flex;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.section-4 { 
+    width: 100%;  
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Cormorant Garamond',Georgia,"Times New Roman",serif;
+    color: white; 
+    text-align: center; 
+    background-image:  url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/Image_08.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat:no-repeat ;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end;
+    
+} 
+.section-4_content_box{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+
+ background-color: white;
+    inline-size: 0.5;
+    max-width: 35%;
+    margin-right: 10%;
+    color: black;
+    box-sizing: border-box;
+    padding: 2%;
+   
+    
+    }
+.section-4_head{
+    text-align: left;
+    width: 90%;
+    font-size: 75%;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;;
+    color: coral;
+    padding-bottom: 5%;
+    font-weight: 200;
+}
+.section-4_title{
+    text-align:justify;
+    width: 90%;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-bottom: 40px;
+    font-family: 'Cormorant Garamond',Georgia,"Times New Roman",serif;
+}
+.section-4_p{
+   
+    line-height: 2em;
+    font-weight:100;
+    font-size: 1.2vw;
+   max-width: 90%;
+   text-align: left;
+   padding-bottom: 5%;
+   
+}
+.section-4_p2{
+    width: 90%;
+    display: flex;
+   
+justify-content: end;
+  
+}
+.section-4_button{
+    text-align: right;
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: rgb(248, 128, 106);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+
+}
+.section-4_button:hover{
+    cursor: pointer;
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: coral;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    
+}
+
+.bars{
+    display: none;
+}
+/* Responsivo para pantallas pequeñas */
+
+
+    .section-5{
+
+    background: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/recipe_illustration_03.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;  
+    padding-top: 10%;
+    padding-bottom: 12%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-5_head{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.section-5_head_title{
+    font-weight: 100;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.3%;
+}
+.section-5_head_border{
+    border: solid 1px #e9e9e9;
+    min-width: 7%;
+   margin-bottom: 5%;
+}
+
+.section-5_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    align-items: start;
+    padding-bottom: 5%;
+      
+}
+.section-5_content_box{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  border : solid 1px#e9e9e9 ;
+  
+    max-width: 25%;
+    min-width: 25%;
+    
+    }
+.section-5_content_box_img{
+    width: 100%;
+}
+.section-5_content_box_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5%;
+}
+.section-5_content_box_h2{
+    margin-top: 15%;
+    width: 100%;
+}
+.section-5_content_box_text_p{
+    margin-top: 5%;
+    color:rgb(248, 128, 106); ;
+}
+.section-5_content_box_text_p2{
+    font-family: 'Cormorant Garamond',Georgia,"Times New Roman",serif;;
+    margin-top: 5%;
+    color:rgb(149, 149, 149); 
+    line-height: 2;
+}
+.section-5_grid{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.section-5_grid_content{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    padding-bottom: 2.5%;
+  
+}
+.section-6{
+    width: 100%;
+    background-color: #faf3d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    }
+.section-6_background{
+    background: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/03/recipe_illustration_01-2.png");
+    background-size: contain;
+    height: 530px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.section-6_content_box{
+  
+    text-align: center;
+
+    font-family:  Open Sans,Arial,sans-serif"";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    width: 35%;
+   
+    
+    }
+    .section-6_h1{
+        margin-top: 5%;
+        font-weight: 300;
+        font-size: 50px;
+    }
+.section-6_input{
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+    
+    margin-bottom: 5%;
+    border: solid#e0e0e0;
+    margin-top: 5%;
+  
+
+}
+.section-6_button{
+    width: 100%;
+    padding: 3%;
+    background-color: #ff7864;
+    margin-bottom: 20%;
+   margin-bottom:15%;
+   border: none;
+   color: white;
+
+}
+footer{
+    padding: 1.5%;
+    width: 100%;
+    background-color: black;
+    color: #5d5d5d;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+ text-decoration: none;
+ width: 10%;
+ justify-content: space-evenly;
+}
+.fa-brands .fa-x-twitter{
+    color: #fffbfb;
+  
+}
+@media(max-width:1000px){
+    .title{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        
+    }
+    .title-box{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .title-h1{
+        display: flex;
+        align-content:center
+    }
+    .list{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around ;
+      width: 7%;
+    
+
+    }
+    .section-2_head{
+        padding: 15%;
+         }
+         .section-2_head_border{
+          margin-top: 5%;
+          width: 25%;
+        
+         
+         }
+         .section-2_content {
+          flex-direction: column; 
+          align-items: center;
+          width: 50%;
+      }
+      
+      
+      .section-2_content_box {
+          width: 90% !important; 
+          max-width:90% !important; 
+          min-width: 90% !important; 
+          margin-bottom: 20px;
+      }
+      
+      .section-2_content_box_img {
+          width: 100%; 
+          height: auto; 
+      }
+      .section-4_content_box{
+        
+        min-width: 80%;
+        font-size: 100%;
+      }
+      .section-4_title{
+    
+        font-size: 180%;
+     
+        
+    }
+    .section-4_p{
+        font-size: 100%;
+        line-height: 3;
+        margin-bottom: 5%;
+        
+    }
+    .section-5_content{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+    .section-5_content_box{
+        min-width:40%;
+        margin-top: 5%;
+    }
+    .section-5_grid{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        min-width: 40%;
+        justify-content: space-evenly;
+    }
+    .section-5_grid_content{
+        width: 17%;
+        
+        display: flex; 
+        flex-direction: column;  
+        
+        
+    }
+}
+@media (max-width: 668px) {
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .list{
+        display: none;
+    }
+    .bars{
+    width: 30%;
+    display: contents;
+    justify-content: space-evenly;
+    align-items: center;
+        
+    }
+    .section-1 { 
+       min-height: 400px; padding: 10px; 
+       display: flex;
+       justify-content: flex-start;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 10%;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+   } 
+   .section-2_head{
+  padding: 15%;
+   }
+   .section-2_head_border{
+    margin-top: 5%;
+    width: 25%;
+  
+   
+   }
+   .section-2_content {
+    flex-direction: column; 
+    align-items: center;
+    width: 90%;
+}
+
+.section-2_content_box {
+    width: 90% !important; 
+    max-width:90% !important; 
+    min-width: 90% !important; 
+    margin-bottom: 20px;
+}
+
+.section-2_content_box_img {
+    width: 100%; 
+    height: auto; 
+}
+.section-3_content_box{
+padding-top: 10%;
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+}
+.section-3_title{
+    font-size: 260%;
+    text-align: center;
+    line-height: 1.5;
+}
+.section-3_text{
+    line-height: 2.5;
+}
+.section-4{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    background-size: 1.5 auto;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+.section-4_content_box{
+margin: 0;
+min-width: 80%;
+padding: 5%;
+font-size: 100%;
+}
+.section-4_title{
+    
+    font-size: 180%;
+    
+    
+}
+.section-4_p{
+    font-size: 100%;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+.section-5{
+    width: 100%;
+}
+.section-5_head_border{
+    width: 25%;
+}
+.section-5_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-5_content_box{
+    min-width: 80%;
+    margin-bottom: 7%;
+}
+.section-5_grid{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 70%;
+}
+.section-5_grid_content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.section-6_content_box{
+    width: 70%;
+    
+}
+.section-6_h1{
+    font-size: 280%;
+    line-height: 1.5;
+}
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2.5%;
+    align-content: start;
+padding-top: 5%;
+padding-top: 5%;
+}
+   
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-decoration: none;
+    justify-content:space-evenly;
+    
+    width: 50%;
+
+}
+.footer-text{
+    padding-top: 2%;
+    padding-bottom:2%;
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.5;
+}
+       
+       
+   }
