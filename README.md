@@ -3,6 +3,7 @@
 # Landing Page Demo
 
 A clean, responsive **landing page** demo built with HTML and CSS. This project serves as a template for modern marketing or product pages, featuring a minimalist design and best practices for structure and styling.
+
 <img width="1430" alt="Captura de pantalla 2025-04-29 a las 17 36 11" src="https://github.com/user-attachments/assets/665a0e04-cc5e-40e8-93ec-9627f189d181" /><img width="468" alt="Captura de pantalla 2025-04-29 a las 17 37 47" src="https://github.com/user-attachments/assets/0fa47de2-6215-4c6e-bc3f-cd282bc12726" />
 
 
